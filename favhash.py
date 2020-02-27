@@ -1,4 +1,5 @@
-# favhash is a script to obtain a favicon hash.
+# favhash is a script to obtain a favicon hash. 
+# then search in shodan https://www.shodan.io/search?query=http.favicon.hash%3A-538460259&page=3
 
 import sys
 import mmh3
