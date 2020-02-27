@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # favhash is a script to obtain a favicon hash.
 
 import sys
