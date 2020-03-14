@@ -1,0 +1,7 @@
+#!/bin/sh
+
+find . \( -name '*.mkv' \) -exec sh -c '
+  for file do
+    target="${file%.*}.avi"
+    ffmpeg -i "$file" -f avi -c:v mpeg4 -b:v 4000k -c:a libmp3lame -b:a 320k "$target"
+  done' sh {} +
