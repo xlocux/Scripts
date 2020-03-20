@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# pip install shodan
 
 
 import shodan
