@@ -1,0 +1,3 @@
+Install s3cmd then.
+
+ s3cmd ls --access_key=AKIALOCUSUPERDUPER  --secret_key=X1qko5Ni6VCbyEAL4F1RWogfsjD211312323
